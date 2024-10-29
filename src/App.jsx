@@ -5,6 +5,7 @@ import Success from './success';
 import EducationForm from './education';
 import TeacherDashboard from './teacher';
 import StudentDashboard from './student';
+import Location from './location.jsx'
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
         <Route path="/education" element={<EducationForm />}/>
         <Route path="/teacher" element={<TeacherDashboard />} />
         <Route path="/student" element={<StudentDashboard />} />
+        <Route path="/location" element={<Location />} />
       </Routes>
     </Router>
   );
