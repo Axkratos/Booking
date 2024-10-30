@@ -6,6 +6,7 @@ import EducationForm from './education';
 import TeacherDashboard from './teacher';
 import StudentDashboard from './student';
 import Location from './location.jsx'
+import Image from './images.jsx'
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
         <Route path="/teacher" element={<TeacherDashboard />} />
         <Route path="/student" element={<StudentDashboard />} />
         <Route path="/location" element={<Location />} />
+        <Route path="/image" element={<Image />} />
       </Routes>
     </Router>
   );
